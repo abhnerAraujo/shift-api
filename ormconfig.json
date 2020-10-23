@@ -1,0 +1,15 @@
+{
+  "url": "postgres://zxzwbfxz:nJCpvgdarvMA_Y8YnyAIV6u7mbbVIdQa@motty.db.elephantsql.com:5432/zxzwbfxz",
+  "type": "postgres",
+  "synchronize": true,
+  "entities": [
+    "dist/**/*.entity.js"
+  ],
+  "migrations": [
+    "dist/migration/**/*.js"
+  ],
+  "cli": {
+    "migrationsDir": "src/migration"
+  },
+  "logging": "all"
+}
